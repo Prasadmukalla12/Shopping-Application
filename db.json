@@ -1,0 +1,587 @@
+{
+  "mens": [
+    {
+      "id": "1",
+      "title": "Mens causaul Shirt (blue, M)",
+      "mrp": 1099,
+      "price": 599,
+      "category": "mens",
+      "ratings": {
+        "rate": 4.5,
+        "likes": 599
+      },
+      "image": "../../public/mens/men1.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Mens Sweatshirt (light blue, XL)",
+      "mrp": 1569,
+      "price": 999,
+      "category": "mens",
+      "ratings": {
+        "rate": 4.1,
+        "likes": 658
+      },
+      "image": "../../public/mens/men2.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Men denim shirt (red, L)",
+      "mrp": 899,
+      "price": 589,
+      "category": "mens",
+      "ratings": {
+        "rate": 4.3,
+        "likes": 785
+      },
+      "image": "../../public/mens/men3.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Men jacket srylish(blue, XL)",
+      "mrp": 2099,
+      "price": 1599,
+      "category": "mens",
+      "ratings": {
+        "rate": 4,
+        "likes": 1599
+      },
+      "image": "../../public/mens/men4.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Formal shirt for men(green, M)",
+      "mrp": 1859,
+      "price": 1199,
+      "category": "mens",
+      "ratings": {
+        "rate": 3.9,
+        "likes": 856
+      },
+      "image": "../../public/mens/men5.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Luxury blazzer for men(navy blue, L)",
+      "mrp": 1599,
+      "price": 899,
+      "category": "mens",
+      "ratings": {
+        "rate": 4.7,
+        "likes": 1199
+      },
+      "image": "../../public/mens/men6.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    }
+  ],
+  "womens": [
+    {
+      "id": "1",
+      "title": "Women hat for summer",
+      "mrp": 1589,
+      "price": 899,
+      "category": "womens",
+      "ratings": {
+        "rate": 3.5,
+        "likes": 1589
+      },
+      "image": "../../public/womens/women1.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Hand bag for women",
+      "mrp": 3989,
+      "price": 2199,
+      "category": "womens",
+      "ratings": {
+        "rate": 4.8,
+        "likes": 2478
+      },
+      "image": "../../public/womens/women2.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Girls top wear for winter",
+      "mrp": 2799,
+      "price": 1289,
+      "category": "womens",
+      "ratings": {
+        "rate": 4.6,
+        "likes": 1254
+      },
+      "image": "../../public/womens/women3.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Youth top wear for girls",
+      "mrp": 899,
+      "price": 365,
+      "category": "womens",
+      "ratings": {
+        "rate": 3.2,
+        "likes": 259
+      },
+      "image": "../../public/womens/women4.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Womens hat for summer",
+      "mrp": 3569,
+      "price": 2199,
+      "category": "womens",
+      "ratings": {
+        "rate": 4.4,
+        "likes": 1856
+      },
+      "image": "../../public/womens/women5.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Womens red color top wear",
+      "mrp": 1899,
+      "price": 1289,
+      "category": "womens",
+      "ratings": {
+        "rate": 4.5,
+        "likes": 1599
+      },
+      "image": "../../public/womens/women6.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Trendy top wear for girls",
+      "mrp": 3219,
+      "price": 2199,
+      "category": "womens",
+      "ratings": {
+        "rate": 4.7,
+        "likes": 2299
+      },
+      "image": "../../public/womens/women7.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Casual t-shirt for womens",
+      "mrp": 1189,
+      "price": 799,
+      "category": "womens",
+      "ratings": {
+        "rate": 3.7,
+        "likes": 699
+      },
+      "image": "../../public/womens/women8.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Trendy orange top wear",
+      "mrp": 1499,
+      "price": 1199,
+      "category": "womens",
+      "ratings": {
+        "rate": 4.3,
+        "likes": 865
+      },
+      "image": "../../public/womens/women9.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    }
+  ],
+  "kids": [
+    {
+      "id": "1",
+      "title": "Little girls white t-shirt",
+      "mrp": 789,
+      "price": 289,
+      "category": "kids",
+      "ratings": {
+        "rate": 3.5,
+        "likes": 1589
+      },
+      "image": "../../public/kids/kid1.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Denim jeans for kids",
+      "mrp": 1599,
+      "price": 989,
+      "category": "kids",
+      "ratings": {
+        "rate": 4.4,
+        "likes": 1578
+      },
+      "image": "../../public/kids/kid2.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Winter caps for under 10Y kids",
+      "mrp": 1879,
+      "price": 1389,
+      "category": "kids",
+      "ratings": {
+        "rate": 4.1,
+        "likes": 5554
+      },
+      "image": "../../public/kids/kid3.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "White style hat for girls",
+      "mrp": 899,
+      "price": 365,
+      "category": "kids",
+      "ratings": {
+        "rate": 3.2,
+        "likes": 259
+      },
+      "image": "../../public/kids/kid4.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Leather hand bag for childerns",
+      "mrp": 2489,
+      "price": 2189,
+      "category": "kids",
+      "ratings": {
+        "rate": 4.6,
+        "likes": 1556
+      },
+      "image": "../../public/kids/kid5.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Kids top wear for girls",
+      "mrp": 1799,
+      "price": 1289,
+      "category": "kids",
+      "ratings": {
+        "rate": 4,
+        "likes": 2599
+      },
+      "image": "../../public/kids/kid6.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Denim jeans for kids",
+      "mrp": 1219,
+      "price": 599,
+      "category": "kids",
+      "ratings": {
+        "rate": 3.9,
+        "likes": 2499
+      },
+      "image": "../../public/kids/kid7.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Kids jacket for womens",
+      "mrp": 1189,
+      "price": 799,
+      "category": "kids",
+      "ratings": {
+        "rate": 3.7,
+        "likes": 699
+      },
+      "image": "../../public/kids/kid8.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Jacket for under 10years",
+      "mrp": 1499,
+      "price": 1199,
+      "category": "kids",
+      "ratings": {
+        "rate": 4.3,
+        "likes": 865
+      },
+      "image": "../../public/kids/kid9.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    }
+  ],
+  "mobiles": [
+    {
+      "id": "1",
+      "title": "Google Pixel 10 (Frost, 256GB)",
+      "mrp": 59999,
+      "price": 45899,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4.5,
+        "likes": 8589
+      },
+      "image": "../../public/mobiles/mobile1.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Google Pixel pro Fold (Moonstone, 256GB)",
+      "mrp": 98999,
+      "price": 78999,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4.4,
+        "likes": 5878
+      },
+      "image": "../../public/mobiles/mobile2.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Apple iphone 17 pro (Cosmic Orange 256GB)",
+      "mrp": 159999,
+      "price": 135999,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4.8,
+        "likes": 9554
+      },
+      "image": "../../public/mobiles/mobile3.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Apple iphone 16 (Ultramorine, 128GB)",
+      "mrp": 79899,
+      "price": 65899,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4.2,
+        "likes": 7259
+      },
+      "image": "../../public/mobiles/mobile4.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Oppo Reno 14 5G (Pearlwhite, 256GB)",
+      "mrp": 45899,
+      "price": 32189,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4,
+        "likes": 6556
+      },
+      "image": "../../public/mobiles/mobile5.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Samsung Galaxy S25 5G (Silver, 128GB)",
+      "mrp": 125899,
+      "price": 109899,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4.1,
+        "likes": 8599
+      },
+      "image": "../../public/mobiles/mobile6.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Samsung Galaxy S26 Ultra 5G (Violet, 512GB)",
+      "mrp": 135899,
+      "price": 115599,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4,
+        "likes": 5499
+      },
+      "image": "../../public/mobiles/mobile7.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Vivo X200T 5G (Black, 256GB)",
+      "mrp": 89799,
+      "price": 65899,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 3.9,
+        "likes": 4699
+      },
+      "image": "../../public/mobiles/mobile8.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Vivo X300 5G (Black, 512GB)",
+      "mrp": 95899,
+      "price": 75899,
+      "category": "mobiles",
+      "ratings": {
+        "rate": 4.3,
+        "likes": 4865
+      },
+      "image": "../../public/mobiles/mobile9.jpg",
+      "offers": [
+        "Axis Bank : 50% off from Axis credit card",
+        "ICICI Bank : 25% flat discount using ICICI credit card",
+        "SBI Bank : 18% discount from SBI credit/debit card"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user_id": "prasad_user",
+      "user_name": "prasadmukalla",
+      "password": "prasad123",
+      "email": "prasad@gmail.com",
+      "id": "9253"
+    },
+    {
+      "id": "1d61",
+      "user_id": "sai_user",
+      "user_name": "saikumar",
+      "password": "sai123",
+      "email": "pkjdgk@gmail.com"
+    }
+  ]
+}

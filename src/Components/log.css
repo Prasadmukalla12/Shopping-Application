@@ -1,0 +1,9 @@
+
+.log{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 650px;
+}
+.frm{
+    background-color: rgba(241, 225, 225, 0.5);
+}

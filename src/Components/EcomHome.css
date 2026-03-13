@@ -1,0 +1,48 @@
+
+.bg{
+    background-image: url("bg.jpg");
+    background-position: 100vh;
+
+}
+.mensFashion{
+     background-image: url("mensClothing.jpg");
+     background-size: cover;
+     height: 350px;
+}
+.womensFashion{
+    background-image: url("womensFashion.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.kidsFashion{
+    background-image: url("kidsFashion.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.mobiles{
+    background-image: url("mobiles.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.mensFashion:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.womensFashion:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.kidsFashion:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.mobiles:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.blog{
+    background-color: rgba(192, 188, 188, 0.5);
+}
+.page{
+    background-color: rgba(241, 225, 225, 0.5);
+}

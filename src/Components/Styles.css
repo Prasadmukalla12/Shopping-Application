@@ -1,0 +1,9 @@
+.men,.women,.kid,.mobile{
+    padding: 9px;
+    border-radius: 10px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(225, 17, 190);
+    font-size: 20px;
+}
