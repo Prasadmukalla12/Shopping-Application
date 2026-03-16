@@ -1,9 +1,10 @@
-import { Button, TextField } from "@mui/material";
+import { Button, TextField, Typography } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 import "./log.css"
 import {useCookies} from "react-cookie"
 import {useFormik} from "formik"
 import axios from "axios"
+import * as yup from "yup"
 
 
 
@@ -33,22 +34,32 @@ export default function Login(){
                     alert("User not found")
                 }
             })
-        }
+        },
+        validationSchema : yup.object({
+            user_id : yup.string().required("user_id required"),
+            password : yup.string().required("password required")
+        })
     })
 
     return(
-        <div className="container-fluid bg-dark p-2 log">
+        <div className="container-fluid p-2 log">
             <header className="border border-2 border-white mt-1">
                 <h4 className="text-center fst-italic p-3 text-white">Welcome to Shopper.co</h4>
             </header>
             <div className=" d-flex flex-column justify-content-center align-items-center p-3">
                 <form onSubmit={formik.handleSubmit} className="rounded rounded-3 frm  border border-2 p-3">
                     <h3 className="text-center"><span className="bi bi-person-fill">User Login</span></h3>
-                    <div className="my-3">
+                    <div className="mt-3">
                         <TextField onChange={formik.handleChange} name="user_id" type="text" variant="standard" label="UserID" />
                     </div>
-                    <div className="my-3">
+                    <div>
+                        <Typography sx={{fontWeight:"bold",color:"red"}}>{formik.errors.user_id}</Typography>
+                    </div>
+                    <div className="mt-3">
                         <TextField name="password" onChange={formik.handleChange} type="password" variant="standard" label="Password" />
+                    </div>
+                    <div>
+                        <Typography sx={{fontWeight:"bold",color:"red"}}>{formik.errors.password}</Typography>
                     </div>
                     <div className="mt-4">
                         <div>

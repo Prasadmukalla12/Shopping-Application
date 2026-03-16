@@ -582,6 +582,14 @@
       "user_name": "saikumar",
       "password": "sai123",
       "email": "pkjdgk@gmail.com"
+    },
+    {
+      "id": "14c6",
+      "user_id": "",
+      "user_name": "",
+      "password": "",
+      "email": ""
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
