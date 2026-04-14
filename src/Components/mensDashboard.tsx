@@ -1,6 +1,6 @@
 import { Button, TextField } from "@mui/material"
 import axios from "axios"
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import {useDispatch} from "react-redux"
 import { addToCartProduct } from "../slicer/slicer"
@@ -15,21 +15,21 @@ export default function MensDashboard(){
     const navigate = useNavigate()
     const [searchText, setSearchText] = useState("")
 
-    function LoadProducts(){
+    const LoadProducts = useCallback(()=>{
         axios.get("http://localhost:4100/mens")
         .then(res=>{
             setProducts(res.data)
         })
-    }
+    },[])
 
-    function handleChange(e:any){
+    const handleChange = useCallback((e:any)=>{
         setSearchText(e.target.value)
-    }
+    },[])
 
-    function handleButtonClick(product:{}){
+    const handleButtonClick = useCallback((product:{})=>{
         dispatch(addToCartProduct(product))
         alert("Added to Cart")
-    }
+    },[])
 
     const filterProducts = products.filter((product:any)=>product.title.toLowerCase().includes(searchText.toLowerCase()))
 

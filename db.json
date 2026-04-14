@@ -589,6 +589,27 @@
       "user_name": "",
       "password": "",
       "email": ""
+    },
+    {
+      "id": "92f2",
+      "user_id": "John_user",
+      "user_name": "John",
+      "password": "John123",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "a6d2",
+      "user_id": "David_user",
+      "user_name": "David",
+      "password": "David123",
+      "email": "david@gmail.com"
+    },
+    {
+      "user_id": "prasad_user",
+      "user_name": "prasadmukalla",
+      "password": "prasad123",
+      "email": "prasad@gmail.com",
+      "id": "ktRd4mvFSbM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

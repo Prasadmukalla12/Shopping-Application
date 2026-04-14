@@ -6,7 +6,7 @@ import { useCookies } from "react-cookie"
 import { Link, useNavigate } from "react-router-dom"
 import { removeFromCart } from "../slicer/slicer"
 
-  import { useEffect} from "react";
+  import { useCallback, useEffect} from "react";
    import {Carousel} from "bootstrap"
 import { useDispatch, useSelector } from "react-redux"
 
@@ -19,22 +19,22 @@ export default function ECommerceHome(){
     const productsCount = useSelector((state:any)=>state.productCount)
     const dispatch = useDispatch()
 
-    function handleRemoveClick(product:any){
+    const handleRemoveClick = useCallback((product:any)=>{
         dispatch(removeFromCart(product))
-    }
+    },[])
 
     var total = 0;
     products.map((product:any)=>{
         total+=product.price
     })
 
-    function signOutClick(){
+    const signOutClick = useCallback(()=>{
         removeCookie('user_id')
         navigate("/")
-    }
+    },[])
 
-    function handleClick(action:any){
-       switch(action){
+    const handleClick = useCallback((action:any)=>{
+        switch(action){
           case "mens":
             navigate("/mensdashboard")
             return;
@@ -48,7 +48,7 @@ export default function ECommerceHome(){
             navigate("/mobilesdashboard")
             return
        }
-    }
+    },[])
 
 
 
